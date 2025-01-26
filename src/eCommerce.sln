@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{139587A5-52AE-458A-8394-A48666404693}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityService", "IdentityService", "{DE612F0A-E2AE-4F54-982B-9EC0C412B44C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.Core", "Services\IdentityService\IdentityService.Core\IdentityService.Core.csproj", "{D525BDE9-2ADE-4534-87AD-123922C894B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.Infrastructure", "Services\IdentityService\IdentityService.Infrastructure\IdentityService.Infrastructure.csproj", "{ACE59F1F-0655-4508-8B75-E7C1EAAE767A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.Application", "Services\IdentityService\IdentityService.Application\IdentityService.Application.csproj", "{FC055D8A-5836-44EA-9B48-AC18156DADA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.Web", "Services\IdentityService\IdentityService.Web\IdentityService.Web.csproj", "{D92C3814-1A19-4A05-A4E9-4BB56B576BCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.AspireHost", "Services\eCommerce.AspireHost\eCommerce.AspireHost.csproj", "{54347C83-D36A-446F-8BFD-91D417AA143B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.ServiceDefaults", "Services\eCommerce.ServiceDefaults\eCommerce.ServiceDefaults.csproj", "{E064C4A5-75DF-42DA-8120-66EDEA54FABD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D525BDE9-2ADE-4534-87AD-123922C894B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D525BDE9-2ADE-4534-87AD-123922C894B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D525BDE9-2ADE-4534-87AD-123922C894B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D525BDE9-2ADE-4534-87AD-123922C894B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE59F1F-0655-4508-8B75-E7C1EAAE767A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE59F1F-0655-4508-8B75-E7C1EAAE767A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE59F1F-0655-4508-8B75-E7C1EAAE767A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE59F1F-0655-4508-8B75-E7C1EAAE767A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC055D8A-5836-44EA-9B48-AC18156DADA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC055D8A-5836-44EA-9B48-AC18156DADA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC055D8A-5836-44EA-9B48-AC18156DADA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC055D8A-5836-44EA-9B48-AC18156DADA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92C3814-1A19-4A05-A4E9-4BB56B576BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92C3814-1A19-4A05-A4E9-4BB56B576BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92C3814-1A19-4A05-A4E9-4BB56B576BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92C3814-1A19-4A05-A4E9-4BB56B576BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54347C83-D36A-446F-8BFD-91D417AA143B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54347C83-D36A-446F-8BFD-91D417AA143B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54347C83-D36A-446F-8BFD-91D417AA143B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54347C83-D36A-446F-8BFD-91D417AA143B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E064C4A5-75DF-42DA-8120-66EDEA54FABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E064C4A5-75DF-42DA-8120-66EDEA54FABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E064C4A5-75DF-42DA-8120-66EDEA54FABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E064C4A5-75DF-42DA-8120-66EDEA54FABD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE612F0A-E2AE-4F54-982B-9EC0C412B44C} = {139587A5-52AE-458A-8394-A48666404693}
+		{D525BDE9-2ADE-4534-87AD-123922C894B8} = {DE612F0A-E2AE-4F54-982B-9EC0C412B44C}
+		{ACE59F1F-0655-4508-8B75-E7C1EAAE767A} = {DE612F0A-E2AE-4F54-982B-9EC0C412B44C}
+		{FC055D8A-5836-44EA-9B48-AC18156DADA1} = {DE612F0A-E2AE-4F54-982B-9EC0C412B44C}
+		{D92C3814-1A19-4A05-A4E9-4BB56B576BCD} = {DE612F0A-E2AE-4F54-982B-9EC0C412B44C}
+	EndGlobalSection
+EndGlobal
