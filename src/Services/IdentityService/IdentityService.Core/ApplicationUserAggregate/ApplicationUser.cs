@@ -5,6 +5,12 @@ using IdentityService.Core.ApplicationUserAggregate.ValueObjects;
 
 namespace IdentityService.Core.ApplicationUserAggregate
 {
+    /// <summary>
+    /// ApplicationUser class represents the user entity in the system. 
+    /// </summary>
+    /// <param name="firstName"></param>
+    /// <param name="lastName"></param>
+    /// <param name="phoneNumber"></param>
     public class ApplicationUser(
         string firstName, 
         string lastName, 
