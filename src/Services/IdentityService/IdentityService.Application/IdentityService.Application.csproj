@@ -10,4 +10,12 @@
     <ProjectReference Include="..\IdentityService.Core\IdentityService.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ApplicationUsers\Commands\Delete\" />
+    <Folder Include="ApplicationUsers\Queries\Get\" />
+    <Folder Include="ApplicationUsers\Queries\List\" />
+    <Folder Include="ApplicationUsers\Commands\Update\" />
+    <Folder Include="ApplicationUsers\Queries\" />
+  </ItemGroup>
+
 </Project>
